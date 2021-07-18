@@ -1,0 +1,9 @@
+.bg-black{
+	background-color: black;
+}
+.ml-30{
+	margin: 0 30px;
+}
+.ml-30:focus{
+	box-shadow: none;
+}

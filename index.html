@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS Links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>BT5 Components</title>
+  </head>
+  <body>
+   
+
+   <h1 class="text-center mb-5"> Accordion Flush</h1>
+
+    <section>
+      <div class="container border border-2">
+
+ <div class="accordion accordion-flush p-2" id="accordionFlushex">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headone">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headone" data-bs-parent="#accordionFlushex">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headtwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headtwo" data-bs-parent="#accordionFlushex">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headthree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headthree" data-bs-parent="#accordionFlushex">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+     </div>
+        
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+
+
+          <h1 class="text-center m-5">Single Dropdown Button</h1>
+
+        <div class="dropdown col-6 text-center">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenubtn1" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenubtn1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+
+        <div class="dropdown col-6 text-center">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownmenulink" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown link </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownmenulink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          
+          <div class="btn-group col-4 mt-5 ">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expandedby="false">Action</button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Seperated link</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group col-4 mt-5 ">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expandedby="false">Action</button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Seperated link</a></li>
+            </ul>
+          </div> 
+
+
+          <div class="btn-group col-4 mt-5 ">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expandedby="false">Action</button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Seperated link</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container bg-black mt-5 p-3">
+        <div class="row">
+
+         <button type="button" class="btn-close btn-close-white ml-30 " aria-label="Close"></button>
+
+         <button type="button" class="btn-close btn-close-white  " disabled aria-label="Close">
+         </button> 
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container my-5">
+      
+        <button type="button" class="btn-close" aria-label="Close"></button>
+
+     </div>
+    </section>
+
+
+
+    <!-- JS Links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
